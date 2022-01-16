@@ -1,7 +1,7 @@
 import React from "react";
 import Task from "./Task";
 import FilterControl from "./FilterControl";
-import { deleteDoc, doc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 // #7a import deleteDoc and doc from 'firebase/firestore"
 // #7b import db from '../utils/firebase"
 import db from "../utils/firebase";
